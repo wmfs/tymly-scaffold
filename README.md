@@ -16,9 +16,9 @@ const Scaffold = require('@wmfs/tymly-scaffold')
 
 const scaffold = new Scaffold(
   {
-    target: 'file',
+    targetType: 'file',
     targetConfig: {
-      blueprintsPath: 'c:/my-blueprints'
+      blueprintsRootPath: 'c:/my-blueprints'
     }
   }
 )
@@ -31,7 +31,6 @@ const blueprintInfo = await scaffold.addBlueprint({
   license: 'MIT',
   githubOrg: 'wmfs',
   npmOrg: '@wmfs'
-
 })
 
 scaffold.setBlueprint(blueprintInfo.name)
@@ -41,34 +40,30 @@ await scaffold.addModel({
   description: 'Pizza!'
 })
 
-const model = await scaffold.getModel({
-  modelName: 'pizza'
-})
+const model = await scaffold.getModel('pizza')
 
 await scaffold.addSeedData({
   modelName: 'pizza'
 })
 
-const model = await scaffold.getSeedData({
+await scaffold.addRoleTemplate({
+  name: 'manager'
+})
+
+await scaffold.makeEditable({
   modelName: 'pizza'
 })
 
-await scaffold.addEditable({
+await scaffold.makeCreatable({
   modelName: 'pizza'
 })
 
-await scaffold.addCreatable({
-  modelName: 'pizza'
-})
-
-await scaffold.addQueryable({
+await scaffold.makeQueryable({
   modelName: 'pizza',
   roles: ['$everyone']
 })
 
-await scaffold.addRoleTemplate({
-  name: 'manager'
-})
+await scaffold.write()
 
 
 ```
