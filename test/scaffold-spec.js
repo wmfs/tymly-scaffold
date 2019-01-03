@@ -8,23 +8,19 @@ describe('Test scaffolder', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   let scaffold
-  let blueprintInfo
 
   it('should get a new Scaffold instance', () => {
     scaffold = new Scaffold(
       {
-        target: 'file',
-        targetConfig: {
-          blueprintsPath: path.join(__dirname, 'output')
-        }
+        basePath: path.join(__dirname, 'output')
       }
     )
   })
 
   it('should stage a new blueprint', async () => {
-    blueprintInfo = await scaffold.addBlueprint(
+    await scaffold.addBlueprint(
       {
-        name: 'tymly-blueprint-pizza',
+        name: 'tymly-pizza-blueprint',
         description: 'For ordering delicious pizza',
         organisation: 'West Midlands Fire Service',
         author: 'Jane Doe',
@@ -33,10 +29,6 @@ describe('Test scaffolder', function () {
         npmOrg: '@wmfs'
       }
     )
-  })
-
-  it('should set blueprint for future staging actions', () => {
-    scaffold.setBlueprint(blueprintInfo.name)
   })
 
   it('should stage a new model', async () => {
@@ -89,11 +81,10 @@ describe('Test scaffolder', function () {
   })
 
   it('should write staged things to target', async () => {
-    await scaffold.write()
+    await scaffold.commit()
   })
 
   it('should get a model', async () => {
-    const model = await scaffold.getModel('pizza')
-    console.log(model)
+    await scaffold.getModel('pizza')
   })
 })

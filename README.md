@@ -16,14 +16,11 @@ const Scaffold = require('@wmfs/tymly-scaffold')
 
 const scaffold = new Scaffold(
   {
-    targetType: 'file',
-    targetConfig: {
-      blueprintsRootPath: 'c:/my-blueprints'
-    }
+    basePath: path.join(__dirname, 'output')
   }
 )
 
-const blueprintInfo = await scaffold.addBlueprint({
+await scaffold.addBlueprint({
   name: 'tymly-blueprint-pizza',
   description: 'For ordering delicious pizza',
   organisation: 'West Midlands Fire Service',
@@ -32,8 +29,6 @@ const blueprintInfo = await scaffold.addBlueprint({
   githubOrg: 'wmfs',
   npmOrg: '@wmfs'
 })
-
-scaffold.setBlueprint(blueprintInfo.name)
 
 await scaffold.addModel({
   modelName: 'pizza',
@@ -63,7 +58,7 @@ await scaffold.makeQueryable({
   roles: ['$everyone']
 })
 
-await scaffold.write()
+await scaffold.commit()
 
 
 ```
