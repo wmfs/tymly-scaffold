@@ -3,11 +3,22 @@
 // const expect = require('chai').expect
 const Scaffold = require('../lib/index')
 const path = require('path')
+const rimraf = require('rimraf')
 
 describe('Test scaffolder', function () {
   this.timeout(process.env.TIMEOUT || 5000)
 
   let scaffold
+
+  it('should make sure ./output doesn\'t exist already', (done) => {
+    const outputPath = path.join(__dirname, 'output')
+    rimraf(
+      outputPath,
+      () => {
+        done()
+      }
+    )
+  })
 
   it('should get a new Scaffold instance', () => {
     scaffold = new Scaffold(
@@ -25,8 +36,10 @@ describe('Test scaffolder', function () {
         organisation: 'West Midlands Fire Service',
         author: 'Jane Doe',
         license: 'MIT',
-        githubOrg: 'wmfs',
-        npmOrg: '@wmfs'
+        gitHubOwner: 'wmfs',
+        npmOrg: 'wmfs',
+        semanticVersioning: true,
+        ciProfile: 'travis'
       }
     )
   })
