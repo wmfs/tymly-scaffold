@@ -226,5 +226,4 @@ describe('Test scaffolder', function () {
   it('should write staged things to target', async () => {
     await scaffold.commit()
   })
-
 })
