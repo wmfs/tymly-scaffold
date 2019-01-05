@@ -54,6 +54,7 @@ describe('Test scaffolder', function () {
           {
             key: 'code',
             typeHint: 'string',
+            example: 'CHEESE_TOMATO',
             required: true,
             title: 'Unique code of the pizza',
             minLength: 3,
@@ -63,6 +64,7 @@ describe('Test scaffolder', function () {
             key: 'label',
             typeHint: 'string',
             required: true,
+            example: 'Cheese & Tomato',
             title: 'Customer-facing label'
           },
           {
@@ -76,6 +78,7 @@ describe('Test scaffolder', function () {
             key: 'imageUri',
             typeHint: 'uri',
             required: true,
+            example: 'https://tinyurl.com/y8r5bbu5',
             title: 'URI to an enticing photo of the pizza'
           },
           {
@@ -88,6 +91,7 @@ describe('Test scaffolder', function () {
           {
             key: 'allergens',
             typeHint: 'string',
+            example: ['Gluten', 'Wheat', 'Milk'],
             multiple: true,
             uniqueItems: true,
             title: 'List of allergens present in pizza'
@@ -95,6 +99,7 @@ describe('Test scaffolder', function () {
           {
             key: 'availabilityEnd',
             typeHint: 'date',
+            example: '2019-12-31',
             required: false,
             title: 'Date when pizza is no longer available.'
           },
@@ -106,12 +111,14 @@ describe('Test scaffolder', function () {
             propertyHints: [
               {
                 key: 'username',
+                example: 'joebloggs4',
                 typeHint: 'string',
                 required: true,
                 title: 'Who wrote the review'
               },
               {
                 key: 'review',
+                example: 'Lovely stuff!',
                 typeHint: 'string',
                 required: true,
                 title: 'Something nice to say'
@@ -119,6 +126,7 @@ describe('Test scaffolder', function () {
               {
                 key: 'rating',
                 title: 'Star rating (0=Awful 5=Great)',
+                example: 5,
                 typeHint: 'integer',
                 required: true,
                 minimum: 0,
@@ -138,8 +146,8 @@ describe('Test scaffolder', function () {
     expect(schema.properties.allergens.items.type).to.equal('string')
   })
 
-  it('should stage some seed data', async () => {
-    await scaffold.addSeedData(
+  it('should stage some seed data', () => {
+    scaffold.addSeedData(
       {
         modelName: 'pizza'
       }
@@ -182,7 +190,4 @@ describe('Test scaffolder', function () {
     await scaffold.commit()
   })
 
-  it('should get a model', async () => {
-    await scaffold.getModel('pizza')
-  })
 })
