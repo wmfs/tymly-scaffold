@@ -141,7 +141,7 @@ describe('Test scaffolder', function () {
   })
 
   it('should get a model schema', () => {
-    const schema = scaffold.getModelSchema('pizza')
+    const schema = scaffold.getComponentJson('models', 'pizza')
     expect(schema.title).to.equal('Pizza')
     expect(schema.properties.allergens.items.type).to.equal('string')
   })
@@ -154,10 +154,47 @@ describe('Test scaffolder', function () {
     )
   })
 
-  it('should stage a new Role Template', async () => {
-    await scaffold.addRoleTemplate(
+  it('should get seed data', () => {
+    const seed = scaffold.getComponentJson('seed-data', 'pizza')
+    expect(seed.propertyNames).to.eql([
+      'code',
+      'label',
+      'popularitySeq',
+      'imageUri',
+      'vegetarian',
+      'availabilityEnd'
+    ])
+    expect(seed.data).to.eql(
+      [
+        [
+          'CHEESE_TOMATO',
+          'Cheese & Tomato',
+          1,
+          'https://tinyurl.com/y8r5bbu5',
+          false,
+          '2019-12-31'
+        ]
+      ]
+    )
+  })
+
+  it('should stage a new Role Template', () => {
+    scaffold.addRoleTemplate(
       {
-        name: 'manager'
+        name: 'manager',
+        label: 'Manager role',
+        description: 'For regional, national managers.'
+      }
+    )
+  })
+
+  it('should get role template', () => {
+    const roleTemplate = scaffold.getComponentJson('template-roles', 'manager')
+    expect(roleTemplate).to.eql(
+      {
+        label: 'Manager role',
+        description: 'For regional, national managers.',
+        grants: []
       }
     )
   })
