@@ -1,6 +1,6 @@
 /* eslint-env mocha */
 
-// const expect = require('chai').expect
+const expect = require('chai').expect
 const Scaffold = require('../lib/index')
 const path = require('path')
 const rimraf = require('rimraf')
@@ -130,6 +130,12 @@ describe('Test scaffolder', function () {
         ]
       }
     )
+  })
+
+  it('should get a model schema', () => {
+    const schema = scaffold.getModelSchema('pizza')
+    expect(schema.title).to.equal('Pizza')
+    expect(schema.properties.allergens.items.type).to.equal('string')
   })
 
   it('should stage some seed data', async () => {
