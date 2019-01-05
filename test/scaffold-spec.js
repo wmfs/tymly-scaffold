@@ -28,8 +28,8 @@ describe('Test scaffolder', function () {
     )
   })
 
-  it('should stage a new blueprint', async () => {
-    await scaffold.addBlueprint(
+  it('should stage a new blueprint', () => {
+    scaffold.addBlueprint(
       {
         name: 'tymly-pizza-blueprint',
         description: 'For ordering delicious pizza',
@@ -44,11 +44,90 @@ describe('Test scaffolder', function () {
     )
   })
 
-  it('should stage a new model', async () => {
-    await scaffold.addModel(
+  it('should stage a new model', () => {
+    scaffold.addModel(
       {
-        modelName: 'pizza',
-        description: 'Pizza!'
+        name: 'pizza',
+        title: 'Pizza',
+        description: 'A model for storing details of a pizza (recipe, price etc.)',
+        propertyHints: [
+          {
+            key: 'code',
+            typeHint: 'string',
+            required: true,
+            title: 'Unique code of the pizza',
+            minLength: 3,
+            maxLength: 15
+          },
+          {
+            key: 'label',
+            typeHint: 'string',
+            required: true,
+            title: 'Customer-facing label'
+          },
+          {
+            key: 'popularitySeq',
+            typeHint: 'integer',
+            required: true,
+            title: 'Integer value to order lists by',
+            minimum: 1
+          },
+          {
+            key: 'imageUri',
+            typeHint: 'uri',
+            required: true,
+            title: 'URI to an enticing photo of the pizza'
+          },
+          {
+            key: 'vegetarian',
+            typeHint: 'boolean',
+            required: true,
+            default: false,
+            title: 'Is the pizza suitable for vegetarians?'
+          },
+          {
+            key: 'allergens',
+            typeHint: 'string',
+            multiple: true,
+            uniqueItems: true,
+            title: 'List of allergens present in pizza'
+          },
+          {
+            key: 'availabilityEnd',
+            typeHint: 'date',
+            required: false,
+            title: 'Date when pizza is no longer available.'
+          },
+          {
+            key: 'reviews',
+            typeHint: 'object',
+            multiple: true,
+            title: 'Favourable customer reviews',
+            propertyHints: [
+              {
+                key: 'username',
+                typeHint: 'string',
+                required: true,
+                title: 'Who wrote the review'
+              },
+              {
+                key: 'review',
+                typeHint: 'string',
+                required: true,
+                title: 'Something nice to say'
+              },
+              {
+                key: 'rating',
+                title: 'Star rating (0=Awful 5=Great)',
+                typeHint: 'integer',
+                required: true,
+                minimum: 0,
+                maximum: 5,
+                default: 5
+              }
+            ]
+          }
+        ]
       }
     )
   })
