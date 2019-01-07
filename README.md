@@ -1,5 +1,7 @@
 # tymly-scaffold
 
+[![Build Status](https://travis-ci.org/wmfs/tymly-scaffold.svg?branch=master)](https://travis-ci.org/wmfs/tymly-scaffold)
+
 > Generates stub blueprint-component files.
 
 # Installation
