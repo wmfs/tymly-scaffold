@@ -210,7 +210,7 @@ describe('Test scaffolder', function () {
   it('should stage objects to make the pizza model creatable', async () => {
     await scaffold.makeCreatable(
       {
-        modelName: 'pizza'
+        modelName: 'order'
       }
     )
   })
