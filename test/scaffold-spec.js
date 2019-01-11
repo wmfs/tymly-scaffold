@@ -226,4 +226,37 @@ describe('Test scaffolder', function () {
   it('should write staged things to target', async () => {
     await scaffold.commit()
   })
+
+  it('should make a new instance for adding new things to an existing blueprint', async () => {
+    scaffold = new Scaffold()
+  })
+
+  it('should set internals to the existing blueprint', () => {
+    scaffold.setBlueprintDir(path.join(__dirname, 'output', 'tymly-pizza-blueprint'))
+  })
+
+  it('should add a new Role Template to an existing blueprint', () => {
+    scaffold.addRoleTemplate(
+      {
+        name: 'ceo',
+        label: 'Big boss',
+        description: 'A special role for the big boss.'
+      }
+    )
+  })
+
+  it('should write new template role inside existing blueprint', async () => {
+    await scaffold.commit()
+  })
+
+  it('should get newly-added role template', () => {
+    const roleTemplate = scaffold.getComponentJson('template-roles', 'ceo')
+    expect(roleTemplate).to.eql(
+      {
+        label: 'Big boss',
+        description: 'A special role for the big boss.',
+        grants: []
+      }
+    )
+  })
 })
