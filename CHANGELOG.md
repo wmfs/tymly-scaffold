@@ -1,3 +1,23 @@
+# [1.1.0](https://github.com/wmfs/tymly-scaffold/compare/v1.0.0...v1.1.0) (2019-01-18)
+
+
+### ✨ Features
+
+* Expose list of available types through Scaffold.ModelTypes ([668af51](https://github.com/wmfs/tymly-scaffold/commit/668af51))
+
+
+### 🐛 Bug Fixes
+
+* Don't prefix subdirectories with 'components/' ([2e71428](https://github.com/wmfs/tymly-scaffold/commit/2e71428))
+* Full resolve path in setBlueprintPath. ([4c7d12e](https://github.com/wmfs/tymly-scaffold/commit/4c7d12e))
+* **deps:** correct json-schema-to-cardscript dependency ([ca05723](https://github.com/wmfs/tymly-scaffold/commit/ca05723))
+* **deps:** Pull in json-schema-builder 1.1.0 to support model primary key generation ([ea564c8](https://github.com/wmfs/tymly-scaffold/commit/ea564c8))
+
+
+### 📦 Code Refactoring
+
+* add empty CHANGELOG.md to template ([cf9b3a5](https://github.com/wmfs/tymly-scaffold/commit/cf9b3a5))
+
 # 1.0.0 (2019-01-07)
 
 
