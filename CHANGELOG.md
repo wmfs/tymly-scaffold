@@ -1,3 +1,15 @@
+# [1.2.0](https://github.com/wmfs/tymly-scaffold/compare/v1.1.1...v1.2.0) (2019-01-18)
+
+
+### ✨ Features
+
+* Implemented property subset form generation ([c1df87b](https://github.com/wmfs/tymly-scaffold/commit/c1df87b))
+
+
+### 📚 Documentation
+
+* Correct travis link ([3a84792](https://github.com/wmfs/tymly-scaffold/commit/3a84792))
+
 ## [1.1.1](https://github.com/wmfs/tymly-scaffold/compare/v1.1.0...v1.1.1) (2019-01-18)
 
 
