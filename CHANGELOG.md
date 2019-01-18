@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/wmfs/tymly-scaffold/compare/v1.1.0...v1.1.1) (2019-01-18)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** Correct [@wmfs](https://github.com/wmfs)/json-schema-builder dependency ([5b295c2](https://github.com/wmfs/tymly-scaffold/commit/5b295c2))
+
 # [1.1.0](https://github.com/wmfs/tymly-scaffold/compare/v1.0.0...v1.1.0) (2019-01-18)
 
 
