@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/wmfs/tymly-scaffold/compare/v1.2.0...v1.3.0) (2019-01-21)
+
+
+### ✨ Features
+
+* makeEditable uses option.filename if provided ([2a76e30](https://github.com/wmfs/tymly-scaffold/commit/2a76e30))
+
 # [1.2.0](https://github.com/wmfs/tymly-scaffold/compare/v1.1.1...v1.2.0) (2019-01-18)
 
 
