@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/wmfs/tymly-scaffold/compare/v1.3.0...v1.4.0) (2019-01-24)
+
+
+### ✨ Features
+
+* Can pass modelSchema as an option to makeEditable ([73be443](https://github.com/wmfs/tymly-scaffold/commit/73be443))
+
 # [1.3.0](https://github.com/wmfs/tymly-scaffold/compare/v1.2.0...v1.3.0) (2019-01-21)
 
 
