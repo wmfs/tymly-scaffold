@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/wmfs/tymly-scaffold/compare/v1.4.0...v1.4.1) (2019-01-28)
+
+
+### 🐛 Bug Fixes
+
+* Add namespace field to blueprint.json ([f78f5a6](https://github.com/wmfs/tymly-scaffold/commit/f78f5a6))
+
 # [1.4.0](https://github.com/wmfs/tymly-scaffold/compare/v1.3.0...v1.4.0) (2019-01-24)
 
 
