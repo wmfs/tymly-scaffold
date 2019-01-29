@@ -1,3 +1,15 @@
+# [1.5.0](https://github.com/wmfs/tymly-scaffold/compare/v1.4.1...v1.5.0) (2019-01-29)
+
+
+### ✨ Features
+
+* Drop tymlyScaffold element into generated forms ([6dd4405](https://github.com/wmfs/tymly-scaffold/commit/6dd4405))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** Fix dependency version. Explicitly pull in globby 9.0.0 because 8.0.1 didn't play with di ([4324797](https://github.com/wmfs/tymly-scaffold/commit/4324797))
+
 ## [1.4.1](https://github.com/wmfs/tymly-scaffold/compare/v1.4.0...v1.4.1) (2019-01-28)
 
 
