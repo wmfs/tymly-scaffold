@@ -1,3 +1,16 @@
+# [1.6.0](https://github.com/wmfs/tymly-scaffold/compare/v1.5.0...v1.6.0) (2019-01-30)
+
+
+### ✨ Features
+
+* Add makeStateMachine method ([3a7f5ed](https://github.com/wmfs/tymly-scaffold/commit/3a7f5ed))
+* Add StateMachines static method ([c607de4](https://github.com/wmfs/tymly-scaffold/commit/c607de4))
+
+
+### 🐛 Bug Fixes
+
+* Return base filename from makeStateMachine ([b010872](https://github.com/wmfs/tymly-scaffold/commit/b010872))
+
 # [1.5.0](https://github.com/wmfs/tymly-scaffold/compare/v1.4.1...v1.5.0) (2019-01-29)
 
 
