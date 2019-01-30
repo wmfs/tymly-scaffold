@@ -1,3 +1,10 @@
+# [1.9.0](https://github.com/wmfs/tymly-scaffold/compare/v1.8.1...v1.9.0) (2019-01-30)
+
+
+### ✨ Features
+
+* Added makeCategory method ([ae5d856](https://github.com/wmfs/tymly-scaffold/commit/ae5d856))
+
 ## [1.8.1](https://github.com/wmfs/tymly-scaffold/compare/v1.8.0...v1.8.1) (2019-01-30)
 
 
