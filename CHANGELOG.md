@@ -1,3 +1,10 @@
+# [1.10.0](https://github.com/wmfs/tymly-scaffold/compare/v1.9.0...v1.10.0) (2019-01-30)
+
+
+### ✨ Features
+
+* add categories to makeStateMachine ([56a4694](https://github.com/wmfs/tymly-scaffold/commit/56a4694))
+
 # [1.9.0](https://github.com/wmfs/tymly-scaffold/compare/v1.8.1...v1.9.0) (2019-01-30)
 
 
