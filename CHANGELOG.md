@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/wmfs/tymly-scaffold/compare/v1.6.0...v1.7.0) (2019-01-30)
+
+
+### ✨ Features
+
+* Drop tymlyScaffold field in favour of meta provided by json-schema-to-cardscript ([ffe9fe6](https://github.com/wmfs/tymly-scaffold/commit/ffe9fe6))
+
 # [1.6.0](https://github.com/wmfs/tymly-scaffold/compare/v1.5.0...v1.6.0) (2019-01-30)
 
 
