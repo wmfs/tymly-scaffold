@@ -1,3 +1,15 @@
+# [1.8.0](https://github.com/wmfs/tymly-scaffold/compare/v1.7.0...v1.8.0) (2019-01-30)
+
+
+### ✨ Features
+
+* Add create statemachine template.  Generate correct state machine filename ([a67d762](https://github.com/wmfs/tymly-scaffold/commit/a67d762))
+
+
+### 🐛 Bug Fixes
+
+* Remove categories from update statemachine ([53bbe10](https://github.com/wmfs/tymly-scaffold/commit/53bbe10))
+
 # [1.7.0](https://github.com/wmfs/tymly-scaffold/compare/v1.6.0...v1.7.0) (2019-01-30)
 
 
