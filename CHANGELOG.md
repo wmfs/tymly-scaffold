@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/wmfs/tymly-scaffold/compare/v1.8.0...v1.8.1) (2019-01-30)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** Pull in json-schema-to-cardscript 1.3.0 ([d3ee290](https://github.com/wmfs/tymly-scaffold/commit/d3ee290))
+
 # [1.8.0](https://github.com/wmfs/tymly-scaffold/compare/v1.7.0...v1.8.0) (2019-01-30)
 
 
