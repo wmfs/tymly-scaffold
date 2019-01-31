@@ -194,7 +194,8 @@ describe('Test scaffolder', function () {
       {
         label: 'Manager role',
         description: 'For regional, national managers.',
-        grants: []
+        grants: [],
+        roleMemberships: []
       }
     )
   })
@@ -255,7 +256,8 @@ describe('Test scaffolder', function () {
       {
         label: 'Big boss',
         description: 'A special role for the big boss.',
-        grants: []
+        grants: [],
+        roleMemberships: []
       }
     )
   })
