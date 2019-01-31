@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/wmfs/tymly-scaffold/compare/v1.10.0...v1.11.0) (2019-01-31)
+
+
+### ✨ Features
+
+* Extended addRoleTemplate to include role memberships ([b0ecf02](https://github.com/wmfs/tymly-scaffold/commit/b0ecf02))
+
+
+### 💎 Styles
+
+* Remove dead code ([e84b875](https://github.com/wmfs/tymly-scaffold/commit/e84b875))
+
 # [1.10.0](https://github.com/wmfs/tymly-scaffold/compare/v1.9.0...v1.10.0) (2019-01-30)
 
 
