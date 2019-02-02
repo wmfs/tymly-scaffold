@@ -1,3 +1,10 @@
+# [1.12.0](https://github.com/wmfs/tymly-scaffold/compare/v1.11.0...v1.12.0) (2019-02-02)
+
+
+### ✨ Features
+
+* makeSearchDoc first pass ([bce68e1](https://github.com/wmfs/tymly-scaffold/commit/bce68e1))
+
 # [1.11.0](https://github.com/wmfs/tymly-scaffold/compare/v1.10.0...v1.11.0) (2019-01-31)
 
 
