@@ -1,3 +1,10 @@
+## [1.13.1](https://github.com/wmfs/tymly-scaffold/compare/v1.13.0...v1.13.1) (2019-02-06)
+
+
+### 🐛 Bug Fixes
+
+* Quote fields in launches properly ([43b57b7](https://github.com/wmfs/tymly-scaffold/commit/43b57b7))
+
 # [1.13.0](https://github.com/wmfs/tymly-scaffold/compare/v1.12.1...v1.13.0) (2019-02-06)
 
 
