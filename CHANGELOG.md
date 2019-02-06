@@ -1,3 +1,10 @@
+## [1.12.1](https://github.com/wmfs/tymly-scaffold/compare/v1.12.0...v1.12.1) (2019-02-06)
+
+
+### 🐛 Bug Fixes
+
+* Tweak search-doc description ([cfe7888](https://github.com/wmfs/tymly-scaffold/commit/cfe7888))
+
 # [1.12.0](https://github.com/wmfs/tymly-scaffold/compare/v1.11.0...v1.12.0) (2019-02-02)
 
 
