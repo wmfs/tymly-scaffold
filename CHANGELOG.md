@@ -1,3 +1,10 @@
+# [1.13.0](https://github.com/wmfs/tymly-scaffold/compare/v1.12.1...v1.13.0) (2019-02-06)
+
+
+### ✨ Features
+
+* makeSearchDoc fills out launches ([94a5da0](https://github.com/wmfs/tymly-scaffold/commit/94a5da0))
+
 ## [1.12.1](https://github.com/wmfs/tymly-scaffold/compare/v1.12.0...v1.12.1) (2019-02-06)
 
 
