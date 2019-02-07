@@ -261,4 +261,8 @@ describe('Test scaffolder', function () {
       }
     )
   })
+
+  it('Available state machines', () => {
+    expect(Scaffold.StateMachines().length).to.equal(3)
+  })
 })
