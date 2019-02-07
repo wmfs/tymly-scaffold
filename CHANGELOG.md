@@ -1,3 +1,10 @@
+# [1.16.0](https://github.com/wmfs/tymly-scaffold/compare/v1.15.0...v1.16.0) (2019-02-07)
+
+
+### ✨ Features
+
+* makeStateMachine now generates restriction for each role passed ([b5de249](https://github.com/wmfs/tymly-scaffold/commit/b5de249))
+
 # [1.15.0](https://github.com/wmfs/tymly-scaffold/compare/v1.14.0...v1.15.0) (2019-02-07)
 
 
