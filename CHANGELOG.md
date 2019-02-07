@@ -1,3 +1,20 @@
+# [1.17.0](https://github.com/wmfs/tymly-scaffold/compare/v1.16.0...v1.17.0) (2019-02-07)
+
+
+### ✨ Features
+
+* addStateMachine now accepts label and description ([4d55958](https://github.com/wmfs/tymly-scaffold/commit/4d55958))
+
+
+### ♻️ Chores
+
+* **script:** add lint script ([efea735](https://github.com/wmfs/tymly-scaffold/commit/efea735))
+
+
+### 💎 Styles
+
+* Lint fix :) ([37d60ba](https://github.com/wmfs/tymly-scaffold/commit/37d60ba))
+
 # [1.16.0](https://github.com/wmfs/tymly-scaffold/compare/v1.15.0...v1.16.0) (2019-02-07)
 
 
