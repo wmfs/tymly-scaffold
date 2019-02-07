@@ -1,3 +1,10 @@
+# [1.15.0](https://github.com/wmfs/tymly-scaffold/compare/v1.14.0...v1.15.0) (2019-02-07)
+
+
+### ✨ Features
+
+* Add view state-machine ([85ef252](https://github.com/wmfs/tymly-scaffold/commit/85ef252))
+
 # [1.14.0](https://github.com/wmfs/tymly-scaffold/compare/v1.13.1...v1.14.0) (2019-02-07)
 
 
