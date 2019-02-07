@@ -1,3 +1,15 @@
+# [1.14.0](https://github.com/wmfs/tymly-scaffold/compare/v1.13.1...v1.14.0) (2019-02-07)
+
+
+### ✨ Features
+
+* makeViewable method ([322204e](https://github.com/wmfs/tymly-scaffold/commit/322204e))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** json-schema-to-cardscript bump to 1.5.0 ([abdab82](https://github.com/wmfs/tymly-scaffold/commit/abdab82))
+
 ## [1.13.1](https://github.com/wmfs/tymly-scaffold/compare/v1.13.0...v1.13.1) (2019-02-06)
 
 
