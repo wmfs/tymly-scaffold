@@ -1,3 +1,10 @@
+## [1.17.1](https://github.com/wmfs/tymly-scaffold/compare/v1.17.0...v1.17.1) (2019-02-07)
+
+
+### 🐛 Bug Fixes
+
+* search-doc fixes - default pks, snake case fields ([033602b](https://github.com/wmfs/tymly-scaffold/commit/033602b))
+
 # [1.17.0](https://github.com/wmfs/tymly-scaffold/compare/v1.16.0...v1.17.0) (2019-02-07)
 
 
