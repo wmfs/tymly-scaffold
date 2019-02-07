@@ -43,6 +43,7 @@
     "rimraf": "2.6.3"
   },
   "scripts": {
+    "lint": "standard",
     "test": "nyc mocha && standard",
     "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
     "semantic-release": "semantic-release"
