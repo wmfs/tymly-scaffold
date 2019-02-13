@@ -53,7 +53,7 @@ describe('Test scaffolder', function () {
         propertyHints: [
           {
             key: 'code',
-            typeHint: 'string',
+            typeHint: 'text',
             example: 'CHEESE_TOMATO',
             required: true,
             title: 'Unique code of the pizza',
@@ -62,7 +62,7 @@ describe('Test scaffolder', function () {
           },
           {
             key: 'label',
-            typeHint: 'string',
+            typeHint: 'text',
             required: true,
             example: 'Cheese & Tomato',
             title: 'Customer-facing label'
@@ -90,7 +90,7 @@ describe('Test scaffolder', function () {
           },
           {
             key: 'allergens',
-            typeHint: 'string',
+            typeHint: 'text',
             example: ['Gluten', 'Wheat', 'Milk'],
             multiple: true,
             uniqueItems: true,
@@ -112,14 +112,14 @@ describe('Test scaffolder', function () {
               {
                 key: 'username',
                 example: 'joebloggs4',
-                typeHint: 'string',
+                typeHint: 'text',
                 required: true,
                 title: 'Who wrote the review'
               },
               {
                 key: 'review',
                 example: 'Lovely stuff!',
-                typeHint: 'string',
+                typeHint: 'text',
                 required: true,
                 title: 'Something nice to say'
               },
