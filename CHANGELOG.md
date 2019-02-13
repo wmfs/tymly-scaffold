@@ -1,3 +1,10 @@
+## [1.17.2](https://github.com/wmfs/tymly-scaffold/compare/v1.17.1...v1.17.2) (2019-02-13)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** Bumped json-schema-builder to 1.3.0.  Fixed code to match API change ([7a4b893](https://github.com/wmfs/tymly-scaffold/commit/7a4b893))
+
 ## [1.17.1](https://github.com/wmfs/tymly-scaffold/compare/v1.17.0...v1.17.1) (2019-02-07)
 
 
