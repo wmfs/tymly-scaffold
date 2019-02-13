@@ -1,3 +1,15 @@
+# [1.18.0](https://github.com/wmfs/tymly-scaffold/compare/v1.17.2...v1.18.0) (2019-02-13)
+
+
+### ✨ Features
+
+* Add meta section to blueprint.json ([e9f49cd](https://github.com/wmfs/tymly-scaffold/commit/e9f49cd))
+
+
+### 🛠 Builds
+
+* **deps:** By jscon-schema-builder to 1.4.0 ([1b2b4dd](https://github.com/wmfs/tymly-scaffold/commit/1b2b4dd))
+
 ## [1.17.2](https://github.com/wmfs/tymly-scaffold/compare/v1.17.1...v1.17.2) (2019-02-13)
 
 
