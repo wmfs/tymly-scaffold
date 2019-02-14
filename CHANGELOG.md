@@ -1,3 +1,10 @@
+## [1.20.1](https://github.com/wmfs/tymly-scaffold/compare/v1.20.0...v1.20.1) (2019-02-14)
+
+
+### 🐛 Bug Fixes
+
+* **TypeCategories:** Pass typeCategory filter though too ([482dcc2](https://github.com/wmfs/tymly-scaffold/commit/482dcc2))
+
 # [1.20.0](https://github.com/wmfs/tymly-scaffold/compare/v1.19.0...v1.20.0) (2019-02-14)
 
 
