@@ -1,3 +1,15 @@
+# [1.22.0](https://github.com/wmfs/tymly-scaffold/compare/v1.21.0...v1.22.0) (2019-02-14)
+
+
+### ✨ Features
+
+* **deps:** Grab json-schema-cardscript 1.6.0 ([fb3309e](https://github.com/wmfs/tymly-scaffold/commit/fb3309e))
+
+
+### 🐛 Bug Fixes
+
+* Bump json-schema-to-cardscript to 1.6.1 to get boolean toggle fix ([e221aa2](https://github.com/wmfs/tymly-scaffold/commit/e221aa2))
+
 # [1.21.0](https://github.com/wmfs/tymly-scaffold/compare/v1.20.1...v1.21.0) (2019-02-14)
 
 
