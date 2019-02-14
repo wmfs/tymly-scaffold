@@ -1,3 +1,10 @@
+# [1.19.0](https://github.com/wmfs/tymly-scaffold/compare/v1.18.0...v1.19.0) (2019-02-14)
+
+
+### ✨ Features
+
+* ModelTypes now takes dataDomains filter parameter ([231d8cf](https://github.com/wmfs/tymly-scaffold/commit/231d8cf))
+
 # [1.18.0](https://github.com/wmfs/tymly-scaffold/compare/v1.17.2...v1.18.0) (2019-02-13)
 
 
