@@ -1,3 +1,10 @@
+# [1.21.0](https://github.com/wmfs/tymly-scaffold/compare/v1.20.1...v1.21.0) (2019-02-14)
+
+
+### ✨ Features
+
+* **deps:** Pull json-schema-builder 1.5.0 in so we drop typeHints into the model ([6dfeb35](https://github.com/wmfs/tymly-scaffold/commit/6dfeb35))
+
 ## [1.20.1](https://github.com/wmfs/tymly-scaffold/compare/v1.20.0...v1.20.1) (2019-02-14)
 
 
