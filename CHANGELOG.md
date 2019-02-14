@@ -1,3 +1,10 @@
+# [1.23.0](https://github.com/wmfs/tymly-scaffold/compare/v1.22.0...v1.23.0) (2019-02-14)
+
+
+### ✨ Features
+
+* Pull in json-schema-to-cardscript to so we can pass title and description to forms ([86ae7d8](https://github.com/wmfs/tymly-scaffold/commit/86ae7d8))
+
 # [1.22.0](https://github.com/wmfs/tymly-scaffold/compare/v1.21.0...v1.22.0) (2019-02-14)
 
 
