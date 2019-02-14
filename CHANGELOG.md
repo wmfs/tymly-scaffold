@@ -1,3 +1,10 @@
+# [1.20.0](https://github.com/wmfs/tymly-scaffold/compare/v1.19.0...v1.20.0) (2019-02-14)
+
+
+### ✨ Features
+
+* Added TypeCategories ([b4c7a43](https://github.com/wmfs/tymly-scaffold/commit/b4c7a43))
+
 # [1.19.0](https://github.com/wmfs/tymly-scaffold/compare/v1.18.0...v1.19.0) (2019-02-14)
 
 
