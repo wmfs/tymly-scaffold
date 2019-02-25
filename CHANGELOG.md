@@ -1,3 +1,10 @@
+## [1.23.1](https://github.com/wmfs/tymly-scaffold/compare/v1.23.0...v1.23.1) (2019-02-25)
+
+
+### 🐛 Bug Fixes
+
+* Add rating field to search-doc template ([e7304a6](https://github.com/wmfs/tymly-scaffold/commit/e7304a6))
+
 # [1.23.0](https://github.com/wmfs/tymly-scaffold/compare/v1.22.0...v1.23.0) (2019-02-14)
 
 
