@@ -1,3 +1,10 @@
+# [1.24.0](https://github.com/wmfs/tymly-scaffold/compare/v1.23.1...v1.24.0) (2019-02-26)
+
+
+### ✨ Features
+
+* **makeForm:** Generate name if not provided, so we've got something to drop into templateMeta ([bf66d57](https://github.com/wmfs/tymly-scaffold/commit/bf66d57))
+
 ## [1.23.1](https://github.com/wmfs/tymly-scaffold/compare/v1.23.0...v1.23.1) (2019-02-25)
 
 
