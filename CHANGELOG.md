@@ -1,3 +1,10 @@
+## [1.24.1](https://github.com/wmfs/tymly-scaffold/compare/v1.24.0...v1.24.1) (2019-02-26)
+
+
+### 🐛 Bug Fixes
+
+* **addSearchDoc:** Include data field ([fea47b1](https://github.com/wmfs/tymly-scaffold/commit/fea47b1))
+
 # [1.24.0](https://github.com/wmfs/tymly-scaffold/compare/v1.23.1...v1.24.0) (2019-02-26)
 
 
