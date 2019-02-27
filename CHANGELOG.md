@@ -1,3 +1,12 @@
+# [1.26.0](https://github.com/wmfs/tymly-scaffold/compare/v1.25.0...v1.26.0) (2019-02-27)
+
+
+### ✨ Features
+
+* **makeFunction:** Scaffold up a function skeleton ([f19d3f7](https://github.com/wmfs/tymly-scaffold/commit/f19d3f7))
+* **makeStateMachine:** extend reindex option to update state machine ([d709745](https://github.com/wmfs/tymly-scaffold/commit/d709745))
+* **makeStateMachine:** Splice presaveFn function into state machines ([0d63fdb](https://github.com/wmfs/tymly-scaffold/commit/0d63fdb))
+
 # [1.25.0](https://github.com/wmfs/tymly-scaffold/compare/v1.24.1...v1.25.0) (2019-02-27)
 
 
