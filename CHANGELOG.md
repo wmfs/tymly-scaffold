@@ -1,3 +1,10 @@
+## [1.26.1](https://github.com/wmfs/tymly-scaffold/compare/v1.26.0...v1.26.1) (2019-02-27)
+
+
+### 🐛 Bug Fixes
+
+* **makeFunction:** Fix typo in function skeleton template ([9b45e4b](https://github.com/wmfs/tymly-scaffold/commit/9b45e4b))
+
 # [1.26.0](https://github.com/wmfs/tymly-scaffold/compare/v1.25.0...v1.26.0) (2019-02-27)
 
 
