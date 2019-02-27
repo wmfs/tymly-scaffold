@@ -1,3 +1,11 @@
+# [1.25.0](https://github.com/wmfs/tymly-scaffold/compare/v1.24.1...v1.25.0) (2019-02-27)
+
+
+### ✨ Features
+
+* **makeStateMachine:** Added reindex option ([bd294f0](https://github.com/wmfs/tymly-scaffold/commit/bd294f0))
+* **makeStateMachine:** Initial work to support more sophisticated state machine creation ([9b9ca50](https://github.com/wmfs/tymly-scaffold/commit/9b9ca50))
+
 ## [1.24.1](https://github.com/wmfs/tymly-scaffold/compare/v1.24.0...v1.24.1) (2019-02-26)
 
 
