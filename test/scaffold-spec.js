@@ -3,6 +3,7 @@
 const expect = require('chai').expect
 const Scaffold = require('../lib/index')
 const path = require('path')
+const fs = require('fs-extra')
 const rimraf = require('rimraf')
 
 describe('Test scaffolder', function () {
@@ -224,8 +225,21 @@ describe('Test scaffolder', function () {
     )
   })
 
+  it('add function skeleton', async () => {
+    await scaffold.makeFunction(
+      {
+        name: 'doathing'
+      }
+    )
+  })
+
   it('should write staged things to target', async () => {
     await scaffold.commit()
+  })
+
+  it('has function?', () => {
+    const fnFile = path.join(scaffold.base, scaffold.blueprintName, 'functions', 'doathing.js')
+    expect(fs.pathExistsSync(fnFile)).to.eql(true)
   })
 
   it('should make a new instance for adding new things to an existing blueprint', async () => {
