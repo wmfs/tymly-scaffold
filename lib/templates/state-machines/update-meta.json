@@ -1,5 +1,5 @@
 {
   "label": "Update",
   "reindex": true,
-  "presaveFn": false
+  "presaveFn": true
 }

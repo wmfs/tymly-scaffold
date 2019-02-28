@@ -1,5 +1,5 @@
 {
   "label": "Create",
   "reindex": true,
-  "presaveFn": false
+  "presaveFn": true
 }
