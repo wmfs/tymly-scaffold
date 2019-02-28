@@ -1,3 +1,10 @@
+## [1.26.2](https://github.com/wmfs/tymly-scaffold/compare/v1.26.1...v1.26.2) (2019-02-28)
+
+
+### 🐛 Bug Fixes
+
+* **add-state-machine:** Tweaked presave function fragment to include explicit input and result paths ([ac063b4](https://github.com/wmfs/tymly-scaffold/commit/ac063b4))
+
 ## [1.26.1](https://github.com/wmfs/tymly-scaffold/compare/v1.26.0...v1.26.1) (2019-02-27)
 
 
