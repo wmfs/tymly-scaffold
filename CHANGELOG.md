@@ -1,3 +1,15 @@
+## [1.26.3](https://github.com/wmfs/tymly-scaffold/compare/v1.26.2...v1.26.3) (2019-03-04)
+
+
+### 🐛 Bug Fixes
+
+* **makeSearchDocs:** Use concat instead of || in search-doc descriptions ([735d3d3](https://github.com/wmfs/tymly-scaffold/commit/735d3d3))
+
+
+### 💎 Styles
+
+* **balls:** balls balls balls ([6e6f1b3](https://github.com/wmfs/tymly-scaffold/commit/6e6f1b3))
+
 ## [1.26.2](https://github.com/wmfs/tymly-scaffold/compare/v1.26.1...v1.26.2) (2019-02-28)
 
 
