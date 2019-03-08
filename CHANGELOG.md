@@ -1,3 +1,10 @@
+## [1.26.4](https://github.com/wmfs/tymly-scaffold/compare/v1.26.3...v1.26.4) (2019-03-08)
+
+
+### 🐛 Bug Fixes
+
+* **makeFunction:** s/formData/event/ so we fit properly with the function resolve argument determina ([b736e03](https://github.com/wmfs/tymly-scaffold/commit/b736e03))
+
 ## [1.26.3](https://github.com/wmfs/tymly-scaffold/compare/v1.26.2...v1.26.3) (2019-03-04)
 
 
