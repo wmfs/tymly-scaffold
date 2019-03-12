@@ -1,3 +1,10 @@
+# [1.27.0](https://github.com/wmfs/tymly-scaffold/compare/v1.26.4...v1.27.0) (2019-03-12)
+
+
+### ✨ Features
+
+* search doc rating is numeric now ([2a204a0](https://github.com/wmfs/tymly-scaffold/commit/2a204a0))
+
 ## [1.26.4](https://github.com/wmfs/tymly-scaffold/compare/v1.26.3...v1.26.4) (2019-03-08)
 
 
