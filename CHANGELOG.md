@@ -1,3 +1,10 @@
+# [1.28.0](https://github.com/wmfs/tymly-scaffold/compare/v1.27.0...v1.28.0) (2019-03-15)
+
+
+### ✨ Features
+
+* Scaffold empty test.js in new blueprints ([31a22a6](https://github.com/wmfs/tymly-scaffold/commit/31a22a6))
+
 # [1.27.0](https://github.com/wmfs/tymly-scaffold/compare/v1.26.4...v1.27.0) (2019-03-12)
 
 
