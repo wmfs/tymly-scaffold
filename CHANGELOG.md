@@ -1,3 +1,10 @@
+# [1.29.0](https://github.com/wmfs/tymly-scaffold/compare/v1.28.0...v1.29.0) (2019-03-19)
+
+
+### ✨ Features
+
+* FactSet Facts have choices, if available ([6792722](https://github.com/wmfs/tymly-scaffold/commit/6792722))
+
 # [1.28.0](https://github.com/wmfs/tymly-scaffold/compare/v1.27.0...v1.28.0) (2019-03-15)
 
 
