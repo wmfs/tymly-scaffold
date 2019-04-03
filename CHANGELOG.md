@@ -1,3 +1,10 @@
+## [1.30.1](https://github.com/wmfs/tymly-scaffold/compare/v1.30.0...v1.30.1) (2019-04-03)
+
+
+### 🐛 Bug Fixes
+
+* Tweak ctx paths in View all state machine ([706afde](https://github.com/wmfs/tymly-scaffold/commit/706afde))
+
 # [1.30.0](https://github.com/wmfs/tymly-scaffold/compare/v1.29.0...v1.30.0) (2019-04-03)
 
 
