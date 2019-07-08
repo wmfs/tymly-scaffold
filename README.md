@@ -2,7 +2,7 @@
 
 [![Tymly Package](https://img.shields.io/badge/tymly-package-blue.svg)](https://tymly.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/@wmfs/tymly-scaffold.svg)](https://www.npmjs.com/package/@wmfs/tymly-scaffold)
-[![Build Status](https://travis-ci.com/wmfs/tymly-scaffold.svg?branch=master)](https://travis-ci.com/wmfs/tymly-scaffold)
+[![CircleCI](https://circleci.com/gh/wmfs/tymly-scaffold.svg?style=svg)](https://circleci.com/gh/wmfs/tymly-scaffold)
 [![codecov](https://codecov.io/gh/wmfs/tymly-scaffold/branch/master/graph/badge.svg)](https://codecov.io/gh/wmfs/tymly-scaffold)
 [![CodeFactor](https://www.codefactor.io/repository/github/wmfs/tymly-scaffold/badge)](https://www.codefactor.io/repository/github/wmfs/tymly-scaffold)
 [![Dependabot badge](https://img.shields.io/badge/Dependabot-active-brightgreen.svg)](https://dependabot.com/)
