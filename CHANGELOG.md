@@ -1,3 +1,10 @@
+## [1.31.1](https://github.com/wmfs/tymly-scaffold/compare/v1.31.0...v1.31.1) (2019-09-19)
+
+
+### 🐛 Bug Fixes
+
+* update x/y type cast in search docs ([2396d0d](https://github.com/wmfs/tymly-scaffold/commit/2396d0d))
+
 # [1.31.0](https://github.com/wmfs/tymly-scaffold/compare/v1.30.1...v1.31.0) (2019-09-19)
 
 
