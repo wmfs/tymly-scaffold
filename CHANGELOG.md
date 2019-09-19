@@ -1,3 +1,26 @@
+# [1.31.0](https://github.com/wmfs/tymly-scaffold/compare/v1.30.1...v1.31.0) (2019-09-19)
+
+
+### ✨ Features
+
+* **search-docs:** updated template to add new search-doc fields ([49b060f](https://github.com/wmfs/tymly-scaffold/commit/49b060f))
+
+
+### 🛠 Builds
+
+* **deps-dev:** update dev dependancies ([75a0e30](https://github.com/wmfs/tymly-scaffold/commit/75a0e30))
+
+
+### 📚 Documentation
+
+* Add CircleCI badge ([cb6a738](https://github.com/wmfs/tymly-scaffold/commit/cb6a738))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** Add CircleCI config ([356c55b](https://github.com/wmfs/tymly-scaffold/commit/356c55b))
+* **travis:** Remove Travis config ([1073538](https://github.com/wmfs/tymly-scaffold/commit/1073538))
+
 ## [1.30.1](https://github.com/wmfs/tymly-scaffold/compare/v1.30.0...v1.30.1) (2019-04-03)
 
 
