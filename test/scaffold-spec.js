@@ -209,6 +209,33 @@ describe('Test scaffolder', function () {
     )
   })
 
+  it('should get editable card', () => {
+    const cardTemplate = scaffold.getComponentJson('card-templates', 'pizza-editing-form')
+
+    expect(cardTemplate.body.length).to.eql(9)
+    expect(cardTemplate.body[1].id).to.eql('code')
+    expect(cardTemplate.body[1].type).to.eql('Input.Text')
+
+    expect(cardTemplate.actions.length).to.eql(2)
+  })
+
+  it('should stage objects to make the pizza model viewable', async () => {
+    await scaffold.makeViewable(
+      {
+        modelName: 'pizza'
+      }
+    )
+  })
+
+  it('should get viewable card', () => {
+    const cardTemplate = scaffold.getComponentJson('card-templates', 'pizza-viewing-form')
+
+    expect(cardTemplate.body.length).to.eql(9)
+    expect(cardTemplate.body[1].type).to.eql('FactSet')
+
+    expect(cardTemplate.actions.length).to.eql(1)
+  })
+
   it('should stage objects to make the pizza model creatable', async () => {
     await scaffold.makeCreatable(
       {
