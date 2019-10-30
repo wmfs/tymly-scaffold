@@ -1,3 +1,10 @@
+## [1.31.2](https://github.com/wmfs/tymly-scaffold/compare/v1.31.1...v1.31.2) (2019-10-30)
+
+
+### 🐛 Bug Fixes
+
+* if creating viewable card, set properties as output ([](https://github.com/wmfs/tymly-scaffold/commit/4e2f1d1))
+
 ## [1.31.1](https://github.com/wmfs/tymly-scaffold/compare/v1.31.0...v1.31.1) (2019-09-19)
 
 
