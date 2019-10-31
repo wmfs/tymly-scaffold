@@ -322,7 +322,7 @@ describe('Test scaffolder', function () {
       // description: 'this is a description', // optional
       filename: '', // optional,
       reindex: false, // whether to reindex after
-      presaveFn: false, // name of function to run
+      presaveFn: false // name of function to run
       // field: '' // this is for the where filter on finding
     })
   })
@@ -342,7 +342,7 @@ describe('Test scaffolder', function () {
       // description: 'this is a description', // optional
       filename: '', // optional,
       reindex: false, // whether to reindex after
-      presaveFn: false, // name of function to run
+      presaveFn: false // name of function to run
       // field: '' // this is for the where filter on finding
     })
   })
@@ -362,7 +362,7 @@ describe('Test scaffolder', function () {
       // description: 'this is a description', // optional
       filename: '', // optional,
       reindex: false, // whether to reindex after
-      presaveFn: false, // name of function to run
+      presaveFn: false // name of function to run
       // field: '' // this is for the where filter on finding
     })
   })
