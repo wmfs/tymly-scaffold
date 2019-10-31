@@ -1,3 +1,15 @@
+## [1.31.3](https://github.com/wmfs/tymly-scaffold/compare/v1.31.2...v1.31.3) (2019-10-31)
+
+
+### 🐛 Bug Fixes
+
+* move trailing state machine comma into restrictions frag ([](https://github.com/wmfs/tymly-scaffold/commit/0e66752))
+
+
+### 💎 Styles
+
+* remove trailing commas ([](https://github.com/wmfs/tymly-scaffold/commit/fe6bcc4))
+
 ## [1.31.2](https://github.com/wmfs/tymly-scaffold/compare/v1.31.1...v1.31.2) (2019-10-30)
 
 
