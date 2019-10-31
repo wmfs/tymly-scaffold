@@ -306,4 +306,68 @@ describe('Test scaffolder', function () {
   it('Available state machines', () => {
     expect(Scaffold.StateMachines().length).to.equal(4)
   })
+
+  it('make state machine to launch card to view pizza record', () => {
+    const stateMachines = Scaffold.StateMachines()
+    const stateMachine = stateMachines.find(s => s.name === 'view')
+
+    scaffold.makeStateMachine({
+      namespace: 'test',
+      stateMachine: stateMachine.name,
+      formName: 'pizza-viewing-form',
+      modelName: 'pizza',
+      categories: [],
+      roles: [],
+      // label: 'this is a label', // optional
+      // description: 'this is a description', // optional
+      filename: '', // optional,
+      reindex: false, // whether to reindex after
+      presaveFn: false, // name of function to run
+      // field: '' // this is for the where filter on finding
+    })
+  })
+
+  it('make state machine to launch card to create pizza record', () => {
+    const stateMachines = Scaffold.StateMachines()
+    const stateMachine = stateMachines.find(s => s.name === 'create')
+
+    scaffold.makeStateMachine({
+      namespace: 'test',
+      stateMachine: stateMachine.name,
+      formName: 'pizza-editing-form',
+      modelName: 'pizza',
+      categories: [],
+      roles: [],
+      // label: 'this is a label', // optional
+      // description: 'this is a description', // optional
+      filename: '', // optional,
+      reindex: false, // whether to reindex after
+      presaveFn: false, // name of function to run
+      // field: '' // this is for the where filter on finding
+    })
+  })
+
+  it('make state machine to launch card to update pizza record', () => {
+    const stateMachines = Scaffold.StateMachines()
+    const stateMachine = stateMachines.find(s => s.name === 'update')
+
+    scaffold.makeStateMachine({
+      namespace: 'test',
+      stateMachine: stateMachine.name,
+      formName: 'pizza-editing-form',
+      modelName: 'pizza',
+      categories: [],
+      roles: [],
+      // label: 'this is a label', // optional
+      // description: 'this is a description', // optional
+      filename: '', // optional,
+      reindex: false, // whether to reindex after
+      presaveFn: false, // name of function to run
+      // field: '' // this is for the where filter on finding
+    })
+  })
+
+  it('should write new state machines inside existing blueprint', async () => {
+    await scaffold.commit()
+  })
 })
