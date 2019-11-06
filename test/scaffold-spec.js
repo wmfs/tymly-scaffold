@@ -11,6 +11,18 @@ describe('Test scaffolder', function () {
 
   let scaffold
 
+  const blueprintMeta = {
+    name: 'tymly-pizza-blueprint',
+    description: 'For ordering delicious pizza',
+    organisation: 'West Midlands Fire Service',
+    author: 'John Doe',
+    license: 'MIT',
+    gitHubOwner: 'wmfs',
+    npmOrg: 'wmfs',
+    semanticVersioning: true,
+    ciProfile: 'travis'
+  }
+
   it('should make sure ./output doesn\'t exist already', (done) => {
     const outputPath = path.join(__dirname, 'output')
     rimraf(
@@ -30,19 +42,7 @@ describe('Test scaffolder', function () {
   })
 
   it('should stage a new blueprint', () => {
-    scaffold.addBlueprint(
-      {
-        name: 'tymly-pizza-blueprint',
-        description: 'For ordering delicious pizza',
-        organisation: 'West Midlands Fire Service',
-        author: 'Jane Doe',
-        license: 'MIT',
-        gitHubOwner: 'wmfs',
-        npmOrg: 'wmfs',
-        semanticVersioning: true,
-        ciProfile: 'travis'
-      }
-    )
+    scaffold.addBlueprint(blueprintMeta)
   })
 
   it('should stage a new model', () => {
@@ -262,6 +262,33 @@ describe('Test scaffolder', function () {
 
   it('should write staged things to target', async () => {
     await scaffold.commit()
+  })
+
+  it('check blueprint meta', () => {
+    const meta = scaffold.getComponentJson(null, 'blueprint')
+    expect(meta.author).to.eql(blueprintMeta.author)
+  })
+
+  it('edit blueprint meta', () => {
+    blueprintMeta.author = 'John Doe'
+    scaffold.addBlueprint(blueprintMeta)
+  })
+
+  it('check blueprint meta has been updated', () => {
+    const meta = scaffold.getComponentJson(null, 'blueprint')
+    expect(meta.author).to.eql(blueprintMeta.author)
+  })
+
+  it('update a card template from the blueprint', async () => {
+    const filename = `pizza-editing-form`
+    const cardscript = scaffold.getComponentJson('card-templates', filename)
+    cardscript.body.push({ type: 'TextBlock', text: 'Hello World' })
+    await scaffold.updateCardTemplate({ filename: `${filename}.json`, cardscript })
+  })
+
+  it('check updated card template', () => {
+    const cardscript = scaffold.getComponentJson('card-templates', 'pizza-editing-form')
+    expect(cardscript.body[cardscript.body.length - 1]).to.eql({ type: 'TextBlock', text: 'Hello World' })
   })
 
   it('has function?', () => {
