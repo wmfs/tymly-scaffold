@@ -1,3 +1,10 @@
+# [1.32.0](https://github.com/wmfs/tymly-scaffold/compare/v1.31.3...v1.32.0) (2019-11-06)
+
+
+### ✨ Features
+
+* allow updating card template and add tests for updating card template + blueprint json ([](https://github.com/wmfs/tymly-scaffold/commit/de3f9ba))
+
 ## [1.31.3](https://github.com/wmfs/tymly-scaffold/compare/v1.31.2...v1.31.3) (2019-10-31)
 
 
