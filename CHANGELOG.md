@@ -1,3 +1,12 @@
+# [1.33.0](https://github.com/wmfs/tymly-scaffold/compare/v1.32.0...v1.33.0) (2020-01-08)
+
+
+### 🛠 Builds
+
+* **deps:** [security] bump lodash from 4.17.11 to 4.17.15 ([6f3742e](https://github.com/wmfs/tymly-scaffold/commit/6f3742eb90776d75debbde6bcd407be2743f0c6c))
+* **deps-dev:** bump mocha from 6.2.2 to 7.0.0 ([1dcb511](https://github.com/wmfs/tymly-scaffold/commit/1dcb511d2aef803dc311911b30b77d8394a67998))
+* **deps-dev:** bump packages ([e2b1a32](https://github.com/wmfs/tymly-scaffold/commit/e2b1a32f6deb5b95eab4d192e534d5f1a69b6882))
+
 # [1.32.0](https://github.com/wmfs/tymly-scaffold/compare/v1.31.3...v1.32.0) (2019-11-06)
 
 
