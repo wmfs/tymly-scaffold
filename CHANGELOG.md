@@ -1,3 +1,12 @@
+# [1.34.0](https://github.com/wmfs/tymly-scaffold/compare/v1.33.0...v1.34.0) (2020-01-23)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/json-schema-to-cardscript from 1.10.0 to 1.15.0 ([cfc74a4](https://github.com/wmfs/tymly-scaffold/commit/cfc74a4a8c66dc7587d01e6f8aa15d3f1e8bcab8))
+* **deps-dev:** bump codecov from 3.6.1 to 3.6.2 ([f704427](https://github.com/wmfs/tymly-scaffold/commit/f70442739113337560fd1f12d05e395656af320b))
+* **deps-dev:** bump conventional-changelog-metahub from 3.0.0 to 4.0.0 ([6735173](https://github.com/wmfs/tymly-scaffold/commit/6735173f6d4ff90e1f3ac2ac57be57ef672b5c27))
+
 # [1.33.0](https://github.com/wmfs/tymly-scaffold/compare/v1.32.0...v1.33.0) (2020-01-08)
 
 
