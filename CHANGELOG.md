@@ -1,3 +1,18 @@
+# [1.35.0](https://github.com/wmfs/tymly-scaffold/compare/v1.34.0...v1.35.0) (2020-01-27)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/json-schema-builder from 1.5.0 to 1.9.0 ([df9a66a](https://github.com/wmfs/tymly-scaffold/commit/df9a66a1abf6f27c91918becbc495a1a1c10e6bd))
+* **deps-dev:** bump mocha from 7.0.0 to 7.0.1 ([b10702a](https://github.com/wmfs/tymly-scaffold/commit/b10702a9c9b60633792091bbeb60cdc7657495ca))
+* **deps-dev:** bump standard from 12.0.1 to 14.3.1 ([b9928a5](https://github.com/wmfs/tymly-scaffold/commit/b9928a5f06f59f724d331fbb1c95e0cdf3a8105a))
+
+
+### 💎 Styles
+
+* Do not access Object.prototype method 'hasOwnProperty' from target object ([9563031](https://github.com/wmfs/tymly-scaffold/commit/95630311950ba20426b4c0ac437bf63739f86519))
+* standard --fix ([381f85f](https://github.com/wmfs/tymly-scaffold/commit/381f85f59b0442820e07f7ed94097f0012821786))
+
 # [1.34.0](https://github.com/wmfs/tymly-scaffold/compare/v1.33.0...v1.34.0) (2020-01-23)
 
 
