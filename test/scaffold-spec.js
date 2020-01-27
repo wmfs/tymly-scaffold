@@ -280,7 +280,7 @@ describe('Test scaffolder', function () {
   })
 
   it('update a card template from the blueprint', async () => {
-    const filename = `pizza-editing-form`
+    const filename = 'pizza-editing-form'
     const cardscript = scaffold.getComponentJson('card-templates', filename)
     cardscript.body.push({ type: 'TextBlock', text: 'Hello World' })
     await scaffold.updateCardTemplate({ filename: `${filename}.json`, cardscript })
