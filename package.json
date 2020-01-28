@@ -21,7 +21,7 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@wmfs/json-schema-builder": "1.10.0",
+    "@wmfs/json-schema-builder": "1.13.0",
     "@wmfs/json-schema-to-cardscript": "1.15.0",
     "fs-extra": "8.1.0",
     "globby": "11.0.0",
