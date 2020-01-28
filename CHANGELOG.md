@@ -1,3 +1,12 @@
+# [1.37.0](https://github.com/wmfs/tymly-scaffold/compare/v1.36.0...v1.37.0) (2020-01-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump fs-extra from 7.0.1 to 8.1.0 ([b5c6702](https://github.com/wmfs/tymly-scaffold/commit/b5c670247df80c18b2a0bed774d1349d0981c356))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 3.0.6 to 5.0.0 ([48641c2](https://github.com/wmfs/tymly-scaffold/commit/48641c28dbf9ad3167e8e60aadf179b7c5c9aaf2))
+* **deps-dev:** bump rimraf from 3.0.0 to 3.0.1 ([4abd481](https://github.com/wmfs/tymly-scaffold/commit/4abd48195b5f46a9edf4c2b6ab24a02f31b9ef35))
+
 # [1.36.0](https://github.com/wmfs/tymly-scaffold/compare/v1.35.0...v1.36.0) (2020-01-27)
 
 
