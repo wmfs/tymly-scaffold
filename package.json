@@ -23,7 +23,7 @@
   "dependencies": {
     "@wmfs/json-schema-builder": "1.13.0",
     "@wmfs/json-schema-to-cardscript": "1.15.0",
-    "fs-extra": "8.1.0",
+    "fs-extra": "9.0.0",
     "globby": "11.0.0",
     "lodash": "4.17.15",
     "mem-fs": "1.1.3",
