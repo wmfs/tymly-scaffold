@@ -1,3 +1,30 @@
+# [1.40.0](https://github.com/wmfs/tymly-scaffold/compare/v1.39.0...v1.40.0) (2020-04-07)
+
+
+### 🛠 Builds
+
+* **deps:** bump fs-extra from 8.1.0 to 9.0.0 ([4d7764c](https://github.com/wmfs/tymly-scaffold/commit/4d7764cef2bf401d70b18c3b22af36930ea23574))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/changelog from 5.0.0 to 5.0.1 ([1ea9b2e](https://github.com/wmfs/tymly-scaffold/commit/1ea9b2e619c5f8d63b3123e7ffe4c539480ba395))
+* **deps-dev:** bump [@semantic-release](https://github.com/semantic-release)/git from 7.0.18 to 9.0.0 ([1723599](https://github.com/wmfs/tymly-scaffold/commit/17235993817d1afa29b3d8fc92e09561460606fd))
+* **deps-dev:** bump codecov from 3.6.2 to 3.6.3 ([b948d52](https://github.com/wmfs/tymly-scaffold/commit/b948d52f2dd403ec8e1cdc8abaccad4e811d25ec))
+* **deps-dev:** bump codecov from 3.6.3 to 3.6.4 ([03d3fa4](https://github.com/wmfs/tymly-scaffold/commit/03d3fa414a6ab1bcaaa677365dbed22f425391ec))
+* **deps-dev:** bump codecov from 3.6.4 to 3.6.5 ([754c199](https://github.com/wmfs/tymly-scaffold/commit/754c1995a7c7014f8cf07f3eb6ae3c4e50fa4b3b))
+* **deps-dev:** bump conventional-changelog-metahub from 4.0.0 to 4.0.1 ([74252e7](https://github.com/wmfs/tymly-scaffold/commit/74252e7d0ad770e900a09ed343c5fc99fe51fb23))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.2 to 3.0.3 ([0dcfae0](https://github.com/wmfs/tymly-scaffold/commit/0dcfae08fb2311296a86c58a0109b2d4f289bf47))
+* **deps-dev:** bump cz-conventional-changelog from 3.0.3 to 3.1.0 ([122c422](https://github.com/wmfs/tymly-scaffold/commit/122c4228b78de18ca008f1f29d4b026717e3d111))
+* **deps-dev:** bump mocha from 7.0.1 to 7.1.0 ([6f21a6b](https://github.com/wmfs/tymly-scaffold/commit/6f21a6bdd31eb9907b40462276c2ca8ee1bcd6ff))
+* **deps-dev:** bump mocha from 7.1.0 to 7.1.1 ([2d319c0](https://github.com/wmfs/tymly-scaffold/commit/2d319c0124ae2001d1898785e77b4c576b7b9d53))
+* **deps-dev:** bump nyc from 15.0.0 to 15.0.1 ([eebd5cd](https://github.com/wmfs/tymly-scaffold/commit/eebd5cd4c59889fc552f4702de055602cb7e57d0))
+* **deps-dev:** bump rimraf from 3.0.1 to 3.0.2 ([de975b4](https://github.com/wmfs/tymly-scaffold/commit/de975b45c6fd733c8fbcf5e965e86725a9f7d173))
+* **deps-dev:** bump semantic-release from 15.14.0 to 17.0.4 ([c99e2ec](https://github.com/wmfs/tymly-scaffold/commit/c99e2ec443b296be93994abd5660a11ebd618a92))
+* **deps-dev:** bump standard from 14.3.1 to 14.3.2 ([4e9d395](https://github.com/wmfs/tymly-scaffold/commit/4e9d395593a25fec53d2d1a5467b248edcaa1064))
+* **deps-dev:** bump standard from 14.3.2 to 14.3.3 ([4737837](https://github.com/wmfs/tymly-scaffold/commit/473783702f5de5974ad975a66f41d4f43d2081b8))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** add context env var config to config.yml ([36dbc2b](https://github.com/wmfs/tymly-scaffold/commit/36dbc2bab1ea9714460d3fae49ff84161482948d))
+
 # [1.39.0](https://github.com/wmfs/tymly-scaffold/compare/v1.38.0...v1.39.0) (2020-01-28)
 
 
