@@ -1,3 +1,29 @@
+# [1.41.0](https://github.com/wmfs/tymly-scaffold/compare/v1.40.0...v1.41.0) (2020-07-13)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.15 to 4.17.19 ([df776e9](https://github.com/wmfs/tymly-scaffold/commit/df776e986c702d74ffc288b2f9028a40e824c870))
+* **deps-dev:** bump codecov from 3.6.5 to 3.7.0 ([9d97479](https://github.com/wmfs/tymly-scaffold/commit/9d97479de19376dd0e720ca0f4f35e3aed07238f))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.0 to 3.1.1 ([75320f0](https://github.com/wmfs/tymly-scaffold/commit/75320f004603b5d5bdeaae972e1523d45c9aea87))
+* **deps-dev:** bump cz-conventional-changelog from 3.1.1 to 3.2.0 ([668e9c7](https://github.com/wmfs/tymly-scaffold/commit/668e9c706b141536fbfa66fe406753f13dee9f52))
+* **deps-dev:** bump mocha from 7.1.1 to 7.1.2 ([51025db](https://github.com/wmfs/tymly-scaffold/commit/51025db9d8ba4109a72943491de13e369a0fa5db))
+* **deps-dev:** bump mocha from 7.1.2 to 7.2.0 ([1d4c151](https://github.com/wmfs/tymly-scaffold/commit/1d4c151edf51b142b79203df3864492146407e22))
+* **deps-dev:** bump mocha from 7.2.0 to 8.0.1 ([0c8deb4](https://github.com/wmfs/tymly-scaffold/commit/0c8deb4c79ea3811407ae388e8457c2b9fb4f040))
+* **deps-dev:** bump nyc from 15.0.1 to 15.1.0 ([0f67b89](https://github.com/wmfs/tymly-scaffold/commit/0f67b891184cab5ea172d2662d6105bbac9869e0))
+* **deps-dev:** bump semantic-release from 17.0.4 to 17.0.5 ([980fd2c](https://github.com/wmfs/tymly-scaffold/commit/980fd2c01e1eedc8cb3c38911a8088883e57be78))
+* **deps-dev:** bump semantic-release from 17.0.5 to 17.0.6 ([4e6ede8](https://github.com/wmfs/tymly-scaffold/commit/4e6ede854d6c8daeb8dbb553ec4e3509df48d9d6))
+* **deps-dev:** bump semantic-release from 17.0.6 to 17.0.7 ([b0234e7](https://github.com/wmfs/tymly-scaffold/commit/b0234e7dc30c5c1d82da30167f84ff7948f49795))
+* **deps-dev:** bump semantic-release from 17.0.7 to 17.0.8 ([0c091f0](https://github.com/wmfs/tymly-scaffold/commit/0c091f061b4a2d414fa320971571ec9815e3fe8c))
+* **deps-dev:** bump semantic-release from 17.0.8 to 17.1.0 ([b5a603b](https://github.com/wmfs/tymly-scaffold/commit/b5a603b08b094c39f64ebdb4aa3d5245334a4459))
+* **deps-dev:** bump semantic-release from 17.1.0 to 17.1.1 ([d792f31](https://github.com/wmfs/tymly-scaffold/commit/d792f31da0159f84f1ef3f77e601e08f171d7fdc))
+* **deps-dev:** bump standard from 14.3.3 to 14.3.4 ([8f64e5a](https://github.com/wmfs/tymly-scaffold/commit/8f64e5a11227333a2be2b1c04936ae9a884513a3))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** use updated circle node image [skip ci] ([7b5fe46](https://github.com/wmfs/tymly-scaffold/commit/7b5fe46ecff48d939aff3168babac55acbcba61b))
+
 # [1.40.0](https://github.com/wmfs/tymly-scaffold/compare/v1.39.0...v1.40.0) (2020-04-07)
 
 
