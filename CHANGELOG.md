@@ -1,3 +1,10 @@
+# [1.42.0](https://github.com/wmfs/tymly-scaffold/compare/v1.41.0...v1.42.0) (2020-07-15)
+
+
+### 🛠 Builds
+
+* **deps:** bump fs-extra from 9.0.0 to 9.0.1 ([7a1992d](https://github.com/wmfs/tymly-scaffold/commit/7a1992d53ad78271b6895fb04a390d8c4dbbc2c4))
+
 # [1.41.0](https://github.com/wmfs/tymly-scaffold/compare/v1.40.0...v1.41.0) (2020-07-13)
 
 
