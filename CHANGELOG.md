@@ -1,3 +1,11 @@
+# [1.44.0](https://github.com/wmfs/tymly-scaffold/compare/v1.43.0...v1.44.0) (2020-07-16)
+
+
+### 🛠 Builds
+
+* **deps:** bump globby from 11.0.0 to 11.0.1 ([f2bf200](https://github.com/wmfs/tymly-scaffold/commit/f2bf200dba89c4a2ef4a329a583a06060e85f704))
+* **deps:** bump mem-fs from 1.1.3 to 1.2.0 ([965f48e](https://github.com/wmfs/tymly-scaffold/commit/965f48e184f4758f286bae69b1723cf143d80a05))
+
 # [1.43.0](https://github.com/wmfs/tymly-scaffold/compare/v1.42.0...v1.43.0) (2020-07-16)
 
 
