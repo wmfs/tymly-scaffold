@@ -1,3 +1,10 @@
+# [1.43.0](https://github.com/wmfs/tymly-scaffold/compare/v1.42.0...v1.43.0) (2020-07-16)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/json-schema-to-cardscript from 1.15.0 to 1.16.0 ([3c1232a](https://github.com/wmfs/tymly-scaffold/commit/3c1232a526a1496e180e5c5d1f2a8f9b238db9a6))
+
 # [1.42.0](https://github.com/wmfs/tymly-scaffold/compare/v1.41.0...v1.42.0) (2020-07-15)
 
 
