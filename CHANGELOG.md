@@ -1,3 +1,10 @@
+# [1.45.0](https://github.com/wmfs/tymly-scaffold/compare/v1.44.0...v1.45.0) (2020-07-16)
+
+
+### 🛠 Builds
+
+* **deps:** bump mem-fs-editor from 6.0.0 to 7.0.1 ([f58321d](https://github.com/wmfs/tymly-scaffold/commit/f58321dd224e13a004fa5ef28acb8ba6a08cc0fb))
+
 # [1.44.0](https://github.com/wmfs/tymly-scaffold/compare/v1.43.0...v1.44.0) (2020-07-16)
 
 
