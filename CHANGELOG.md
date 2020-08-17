@@ -1,3 +1,19 @@
+# [1.48.0](https://github.com/wmfs/tymly-scaffold/compare/v1.47.0...v1.48.0) (2020-08-17)
+
+
+### 🛠 Builds
+
+* **deps:** bump lodash from 4.17.19 to 4.17.20 ([c3a7b1e](https://github.com/wmfs/tymly-scaffold/commit/c3a7b1e1e7b925c6cd9fdff3ece7a0b20477e112))
+* **deps-dev:** bump codecov from 3.7.0 to 3.7.1 ([4e4757d](https://github.com/wmfs/tymly-scaffold/commit/4e4757d7a2a333019aa32a958805cd3f0d6eb1ee))
+* **deps-dev:** bump codecov from 3.7.1 to 3.7.2 ([3d77660](https://github.com/wmfs/tymly-scaffold/commit/3d77660ea36439e7fffc6473a6bd29a9263555d9))
+* **deps-dev:** bump mocha from 8.0.1 to 8.1.0 ([60a7a23](https://github.com/wmfs/tymly-scaffold/commit/60a7a235a797763b44f5f45907e65fc7f9a7092e))
+* **deps-dev:** bump mocha from 8.1.0 to 8.1.1 ([5e5058f](https://github.com/wmfs/tymly-scaffold/commit/5e5058fe7643f8668260d46e044baee878722fa5))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** separate lint job [ch1009] ([cd313f5](https://github.com/wmfs/tymly-scaffold/commit/cd313f556ad9d29e9652c67b705ca41046e5ded6))
+
 # [1.47.0](https://github.com/wmfs/tymly-scaffold/compare/v1.46.0...v1.47.0) (2020-07-16)
 
 
