@@ -1,3 +1,15 @@
+# [1.50.0](https://github.com/wmfs/tymly-scaffold/compare/v1.49.0...v1.50.0) (2020-09-28)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/json-schema-to-cardscript from 1.16.0 to 1.17.0 ([0941df9](https://github.com/wmfs/tymly-scaffold/commit/0941df99e8c07c7b24644257b7849fe49b69dcd8))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.0 to 3.2.1 ([f7af982](https://github.com/wmfs/tymly-scaffold/commit/f7af9820a915f4ffdd7cf143fa37af4a0ed9b2a9))
+* **deps-dev:** bump cz-conventional-changelog from 3.2.1 to 3.3.0 ([6c8e70e](https://github.com/wmfs/tymly-scaffold/commit/6c8e70e25855bf9d490b7ea59ff26924134e82df))
+* **deps-dev:** bump mocha from 8.1.1 to 8.1.2 ([af562fc](https://github.com/wmfs/tymly-scaffold/commit/af562fcd03a0fc6dc324cf156468ee248896c7b3))
+* **deps-dev:** bump mocha from 8.1.2 to 8.1.3 ([d63ad93](https://github.com/wmfs/tymly-scaffold/commit/d63ad932f12ad82fd21b0f268fa7d8c33828c769))
+* **deps-dev:** bump semantic-release from 17.1.1 to 17.1.2 ([fd63a11](https://github.com/wmfs/tymly-scaffold/commit/fd63a1180be438422d103455f151d793b4f95cb7))
+
 # [1.49.0](https://github.com/wmfs/tymly-scaffold/compare/v1.48.0...v1.49.0) (2020-08-24)
 
 
