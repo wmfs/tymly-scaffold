@@ -27,7 +27,7 @@
     "globby": "11.0.2",
     "lodash": "4.17.20",
     "mem-fs": "1.2.0",
-    "mem-fs-editor": "7.0.1"
+    "mem-fs-editor": "8.0.0"
   },
   "devDependencies": {
     "chai": "4.2.0",
