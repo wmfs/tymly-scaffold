@@ -1,3 +1,36 @@
+# [1.51.0](https://github.com/wmfs/tymly-scaffold/compare/v1.50.0...v1.51.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump globby from 11.0.1 to 11.0.2 ([c593cb6](https://github.com/wmfs/tymly-scaffold/commit/c593cb6c57fee5afcd601aba0280326431ecdf8e))
+* **deps-dev:** bump codecov from 3.7.2 to 3.8.0 ([8240408](https://github.com/wmfs/tymly-scaffold/commit/8240408630ec8ebe9a6270ec2a9cb2d5329d8d5d))
+* **deps-dev:** bump codecov from 3.8.0 to 3.8.1 ([095aab3](https://github.com/wmfs/tymly-scaffold/commit/095aab34c286b8c82f5164d2fbcf978024888cd9))
+* **deps-dev:** bump mocha from 8.1.3 to 8.2.0 ([59c10d7](https://github.com/wmfs/tymly-scaffold/commit/59c10d7800c62966f7cc2fb1dcf677ed97066027))
+* **deps-dev:** bump mocha from 8.2.0 to 8.2.1 ([28fe2e1](https://github.com/wmfs/tymly-scaffold/commit/28fe2e11321a1a24984942d3e239e448be0b369b))
+* **deps-dev:** bump semantic-release from 17.1.2 to 17.2.0 ([e5af550](https://github.com/wmfs/tymly-scaffold/commit/e5af55082c25688375fa170dde120daf969c28b5))
+* **deps-dev:** bump semantic-release from 17.2.0 to 17.2.1 ([ad92b74](https://github.com/wmfs/tymly-scaffold/commit/ad92b741606d440c2ee2e844f7937a42e4ab2ab5))
+* **deps-dev:** bump semantic-release from 17.2.1 to 17.2.2 ([33fef03](https://github.com/wmfs/tymly-scaffold/commit/33fef03766346b66921ec66e53748956daeb5a46))
+* **deps-dev:** bump semantic-release from 17.2.2 to 17.2.3 ([6e8808c](https://github.com/wmfs/tymly-scaffold/commit/6e8808c90c03d484b4e8af56750101a166d3f6aa))
+* **deps-dev:** bump semantic-release from 17.2.3 to 17.2.4 ([fb7a41d](https://github.com/wmfs/tymly-scaffold/commit/fb7a41d7c36ad0c4bcb91819f672d6c2ad2923c3))
+* **deps-dev:** bump semantic-release from 17.2.4 to 17.3.0 ([24504fb](https://github.com/wmfs/tymly-scaffold/commit/24504fbcf099e2817de40940633be2eb22364a92))
+* **deps-dev:** bump semantic-release from 17.3.0 to 17.3.1 ([9c67ce7](https://github.com/wmfs/tymly-scaffold/commit/9c67ce7c13c66e5ad1b6cbabde10e8abf2078565))
+* **deps-dev:** bump standard from 14.3.4 to 15.0.0 ([7f61780](https://github.com/wmfs/tymly-scaffold/commit/7f617807e4e893c0edc0fb04faa8113df53f5009))
+* **deps-dev:** bump standard from 15.0.0 to 15.0.1 ([2341314](https://github.com/wmfs/tymly-scaffold/commit/23413147a76df82690117beaee4b2642ae89e14e))
+* **deps-dev:** bump standard from 15.0.1 to 16.0.0 ([f750ac4](https://github.com/wmfs/tymly-scaffold/commit/f750ac49349a3fbfc3e649b07d0c692701224a28))
+* **deps-dev:** bump standard from 16.0.0 to 16.0.1 ([1de1a5f](https://github.com/wmfs/tymly-scaffold/commit/1de1a5fc7ce92df9eac8fd50e32841a81266b26f))
+* **deps-dev:** bump standard from 16.0.1 to 16.0.2 ([fdb9afc](https://github.com/wmfs/tymly-scaffold/commit/fdb9afc929dfea332ab4d6c4e6ce279e6d7c491e))
+* **deps-dev:** bump standard from 16.0.2 to 16.0.3 ([75213ec](https://github.com/wmfs/tymly-scaffold/commit/75213ecbbde0567e17f6d888eaecafdd3c14d7e9))
+* Exclude from tymly-sync ([79079e5](https://github.com/wmfs/tymly-scaffold/commit/79079e58d1927ab3d471d7b1e2b7c7769d94c13f))
+
+
+### ⚙️ Continuous Integrations
+
+* **circle:** authenticate Docker image pull [ch2767] ([66a113d](https://github.com/wmfs/tymly-scaffold/commit/66a113d643ec0353c244c067680dd7c8a6437ea7))
+* **circle:** cache dependencies [ch2770] ([e315c6b](https://github.com/wmfs/tymly-scaffold/commit/e315c6b245b3c229e5f6c4a993ca4beb59a3210e))
+* **circle:** separate linting job [ch1009] ([acc6ee0](https://github.com/wmfs/tymly-scaffold/commit/acc6ee0a255b5eee8a0b68fb1c24fa70fe5bd597))
+* **circle:** update build environment variable context name [ch2771] ([cf888bd](https://github.com/wmfs/tymly-scaffold/commit/cf888bd6b2868f8d0416d72a341e41e01ddc5888))
+
 # [1.50.0](https://github.com/wmfs/tymly-scaffold/compare/v1.49.0...v1.50.0) (2020-09-28)
 
 
