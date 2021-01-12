@@ -1,3 +1,10 @@
+# [1.53.0](https://github.com/wmfs/tymly-scaffold/compare/v1.52.0...v1.53.0) (2021-01-12)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/json-schema-builder from 1.17.0 to 1.18.0 ([999c77b](https://github.com/wmfs/tymly-scaffold/commit/999c77b21c1905a6aa41287503975137b2bd4cd7))
+
 # [1.52.0](https://github.com/wmfs/tymly-scaffold/compare/v1.51.0...v1.52.0) (2021-01-12)
 
 
