@@ -1,3 +1,13 @@
+# [1.54.0](https://github.com/wmfs/tymly-scaffold/compare/v1.53.0...v1.54.0) (2021-01-20)
+
+
+### 🛠 Builds
+
+* **deps:** bump fs-extra from 9.0.1 to 9.1.0 ([d7d054d](https://github.com/wmfs/tymly-scaffold/commit/d7d054dc4bdc26354e5d8ee9d1e1bd3e9079ba18))
+* **deps-dev:** bump semantic-release from 17.3.1 to 17.3.2 ([dd0ad54](https://github.com/wmfs/tymly-scaffold/commit/dd0ad54d0134a05072dd34c8e0a09bd08d0f1067))
+* **deps-dev:** bump semantic-release from 17.3.2 to 17.3.3 ([16a146e](https://github.com/wmfs/tymly-scaffold/commit/16a146eff12f6c4e8db3c3988de09d0ec1e961f4))
+* **deps-dev:** bump semantic-release from 17.3.3 to 17.3.4 ([308bc10](https://github.com/wmfs/tymly-scaffold/commit/308bc106e3f45707e0ab7538ec71bfb90c2b5fed))
+
 # [1.53.0](https://github.com/wmfs/tymly-scaffold/compare/v1.52.0...v1.53.0) (2021-01-12)
 
 
