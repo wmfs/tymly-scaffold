@@ -1,3 +1,18 @@
+# [1.55.0](https://github.com/wmfs/tymly-scaffold/compare/v1.54.0...v1.55.0) (2021-02-24)
+
+
+### 🛠 Builds
+
+* **deps:** bump [@wmfs](https://github.com/wmfs)/json-schema-builder from 1.18.0 to 1.19.0 ([d40e2dc](https://github.com/wmfs/tymly-scaffold/commit/d40e2dcbb2868c72eb1a212d3b945358ab407785))
+* **deps:** bump lodash from 4.17.20 to 4.17.21 ([c1c4d1a](https://github.com/wmfs/tymly-scaffold/commit/c1c4d1a53dfecda431264c256e34e601ece8d028))
+* **deps-dev:** bump chai from 4.2.0 to 4.3.0 ([c3e0082](https://github.com/wmfs/tymly-scaffold/commit/c3e00828dccefab293bd7cce9c6410906011f06e))
+* **deps-dev:** bump mocha from 8.2.1 to 8.3.0 ([be26dbd](https://github.com/wmfs/tymly-scaffold/commit/be26dbd6eb763de09114e43f359ab937d62f5ec9))
+* **deps-dev:** bump semantic-release from 17.3.4 to 17.3.5 ([6331fc7](https://github.com/wmfs/tymly-scaffold/commit/6331fc7c922e92c049ead02ed9e9cc2b2231f7de))
+* **deps-dev:** bump semantic-release from 17.3.5 to 17.3.6 ([2c22e40](https://github.com/wmfs/tymly-scaffold/commit/2c22e40ac2077c026e8f08ca03b8dcd66807432f))
+* **deps-dev:** bump semantic-release from 17.3.6 to 17.3.7 ([4aa9389](https://github.com/wmfs/tymly-scaffold/commit/4aa9389b9cacccf7877a526d0c1d6f9400625a35))
+* **deps-dev:** bump semantic-release from 17.3.7 to 17.3.8 ([bbce4dd](https://github.com/wmfs/tymly-scaffold/commit/bbce4dd8ad17e1b23c8c71a6729438d21cc28956))
+* **deps-dev:** bump semantic-release from 17.3.8 to 17.3.9 ([216b72c](https://github.com/wmfs/tymly-scaffold/commit/216b72cc119f9b9dd4d1efbf506d10a1b27a7aa6))
+
 # [1.54.0](https://github.com/wmfs/tymly-scaffold/compare/v1.53.0...v1.54.0) (2021-01-20)
 
 
