@@ -24,7 +24,7 @@
     "@wmfs/json-schema-builder": "1.19.0",
     "@wmfs/json-schema-to-cardscript": "1.18.0",
     "fs-extra": "9.1.0",
-    "globby": "11.0.2",
+    "globby": "11.0.3",
     "lodash": "4.17.21",
     "mem-fs": "1.2.0",
     "mem-fs-editor": "8.0.0"
