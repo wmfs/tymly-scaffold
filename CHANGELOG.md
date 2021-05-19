@@ -1,3 +1,22 @@
+# [1.57.0](https://github.com/wmfs/tymly-scaffold/compare/v1.56.0...v1.57.0) (2021-05-19)
+
+
+### 🛠 Builds
+
+* **deps:** bump globby from 11.0.2 to 11.0.3 ([b6e835a](https://github.com/wmfs/tymly-scaffold/commit/b6e835a79f1ce73c0d5e591defa31e36cfa74d48))
+* **deps-dev:** bump chai from 4.3.0 to 4.3.1 ([e33b08c](https://github.com/wmfs/tymly-scaffold/commit/e33b08c431ad4df40032d22e4e08e8eb54579507))
+* **deps-dev:** bump chai from 4.3.1 to 4.3.2 ([5b21cb5](https://github.com/wmfs/tymly-scaffold/commit/5b21cb5f2c9665badfaa9a9785f52dfd04bf4a71))
+* **deps-dev:** bump chai from 4.3.2 to 4.3.3 ([b519674](https://github.com/wmfs/tymly-scaffold/commit/b5196747638076222e13626800cdba3d5d15edcb))
+* **deps-dev:** bump chai from 4.3.3 to 4.3.4 ([41968b4](https://github.com/wmfs/tymly-scaffold/commit/41968b478bc8e5102a3648ac8cd710defb71129b))
+* **deps-dev:** bump codecov from 3.8.1 to 3.8.2 ([fd3815a](https://github.com/wmfs/tymly-scaffold/commit/fd3815a59b9fc0a79a9f0029aa06b2ec6fb83cf9))
+* **deps-dev:** bump mocha from 8.3.0 to 8.3.1 ([eee1671](https://github.com/wmfs/tymly-scaffold/commit/eee1671febeffcd39e6aa1d1cf8f27e464e2cabd))
+* **deps-dev:** bump mocha from 8.3.1 to 8.3.2 ([05e3ede](https://github.com/wmfs/tymly-scaffold/commit/05e3ede46a4459a0cd6d64db085e9206bbfc5f58))
+* **deps-dev:** bump mocha from 8.3.2 to 8.4.0 ([8a09434](https://github.com/wmfs/tymly-scaffold/commit/8a09434f99095eaaa7295aa7eba16e9656d5acb2))
+* **deps-dev:** bump semantic-release from 17.3.9 to 17.4.0 ([cf0316d](https://github.com/wmfs/tymly-scaffold/commit/cf0316dedfed437ca0e8e08f05f46fcdcc356daf))
+* **deps-dev:** bump semantic-release from 17.4.0 to 17.4.1 ([f211601](https://github.com/wmfs/tymly-scaffold/commit/f2116017d8a34e99e9f9eee88d1a925454faccfa))
+* **deps-dev:** bump semantic-release from 17.4.1 to 17.4.2 ([363fecb](https://github.com/wmfs/tymly-scaffold/commit/363fecb6fe49f801f625f80e27e1ce5428143984))
+* **deps-dev:** bump semantic-release from 17.4.2 to 17.4.3 ([7087bf5](https://github.com/wmfs/tymly-scaffold/commit/7087bf5de5239398c5133f11831f3450c0ca7ca7))
+
 # [1.56.0](https://github.com/wmfs/tymly-scaffold/compare/v1.55.0...v1.56.0) (2021-02-24)
 
 
